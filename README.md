@@ -31,5 +31,5 @@ ghdl -e --std=08 tb_processor
 ghdl -r --std=08 tb_processor --assert-level=error
 ```
 
-No FPGA pin assignment or physical board validation is included. Quartus II synthesis depends on the target device and project settings.
+Quartus II synthesis depends on the target device and project settings.
 
